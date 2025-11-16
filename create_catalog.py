@@ -7,12 +7,12 @@ from sentence_transformers import SentenceTransformer
 from llama_index.embeddings.jinaai import JinaEmbedding
 
 text_embed_model = JinaEmbedding(
-    api_key="jina_d191fd0ac5bf43148e846dc3d72f6fd4G9QM5K0gdVjv-5hCZ6CBk-i-9n04",
+    api_key="jina_c917ab6c0ca34047b1179a266e98aa76qYlaPek_4AlfH-JYi3PquVA_dmlp",
     model="jina-embeddings-v3",
     task="retrieval.passage",
 )
 query_embed_model = JinaEmbedding(
-    api_key="jina_d191fd0ac5bf43148e846dc3d72f6fd4G9QM5K0gdVjv-5hCZ6CBk-i-9n04",
+    api_key="jina_c917ab6c0ca34047b1179a266e98aa76qYlaPek_4AlfH-JYi3PquVA_dmlp",
     model="jina-embeddings-v3",
     task="retrieval.query",
     dimensions=1024,
