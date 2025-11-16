@@ -1,0 +1,10 @@
+services:
+  ai-sales-agent:
+    build: .
+    container_name: ai-sales-agent
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount the database directory to persist orders
+      - ./data:/app/data
+    restart: unless-stopped
